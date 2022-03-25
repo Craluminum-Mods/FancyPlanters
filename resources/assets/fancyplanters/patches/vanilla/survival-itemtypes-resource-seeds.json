@@ -1,0 +1,122 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "plantContainable": {
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shapeByType": {
+            "@.*-(pineapple|onion|parsnip|turnip|sunflower|carrot|cassava|bellpepper|cabbage|pumpkin)": { "base": "fancyplanters:shapes/planted/crop/planter2x1-{type}-*" },
+            "@.*-(flax|rye|rice|spelt)": { "base": "fancyplanters:shapes/planted/crop/planter2x1-default*" },
+            "*-amaranth": { "base": "fancyplanters:shapes/planted/crop/planter2x1-tallcrossdense" },
+            "*-soybean": { "base": "fancyplanters:shapes/planted/crop/planter2x1-cross" },
+            "*-peanut": { "base": "fancyplanters:shapes/planted/crop/planter2x1-densevegetable" },
+            "*": { "base": "fancyplanters:shapes/planted/crop/planter2x1-crossdense" }
+          },
+          "texturesByType": {
+            "*-sunflower": {
+              "normal7-12": { "base": "block/plant/crop/sunflower/normal7-12" },
+              "stem": { "base": "block/plant/crop/sunflower/stem" }
+            },
+            "*-soybean": { "0": { "base": "block/plant/crop/soybean/normal11" } },
+            "*-rice": { "crop": { "base": "block/plant/crop/rice/normal10" } },
+            "*-rye": { "crop": { "base": "block/plant/crop/rye/normal9" } },
+            "*-spelt": { "crop": { "base": "block/plant/crop/spelt/normal9" } },
+            "*-flax": { "crop": { "base": "block/plant/crop/flax/normal9" } },
+            "*-pumpkin": {
+              "south": { "base": "block/plant/pumpkin/motherplant/stage7-south" },
+              "north": { "base": "block/plant/pumpkin/motherplant/stage7-north" },
+              "0": { "base": "block/plant/pumpkin/fruit/stage4-side" },
+              "1": { "base": "block/plant/pumpkin/fruit/stage4-top" },
+              "2": { "base": "block/plant/pumpkin/fruit/stage4-bottom" }
+            },
+            "*-amaranth": {
+              "0": { "base": "block/plant/crop/amaranth/e9" },
+              "1": { "base": "block/plant/crop/amaranth/w9" }
+            },
+            "*-peanut": { "crop": { "base": "block/plant/crop/peanut/normal9" } }
+          }
+        },
+        "largeContainer": {
+          "randomRotateByType": {
+            "*-sunflower": false,
+            "*": true
+          },
+          "shapeByType": {
+            "@.*-(pineapple|onion|parsnip|turnip|sunflower|carrot|cassava|bellpepper|cabbage|pumpkin)": { "base": "fancyplanters:shapes/planted/crop/planter-{type}-*" },
+            "@.*-(flax|rye|rice|spelt)": { "base": "fancyplanters:shapes/planted/crop/planter-default*" },
+            "*-amaranth": { "base": "fancyplanters:shapes/planted/crop/planter-tallcrossdense" },
+            "*-soybean": { "base": "fancyplanters:shapes/planted/crop/planter-cross" },
+            "*-peanut": { "base": "fancyplanters:shapes/planted/crop/planter-densevegetable" },
+            "*": { "base": "fancyplanters:shapes/planted/crop/planter-default*" }
+          },
+          "texturesByType": {
+            "*-sunflower": {
+              "normal7-12": { "base": "block/plant/crop/sunflower/normal7-12" },
+              "stem": { "base": "block/plant/crop/sunflower/stem" }
+            },
+            "*-soybean": { "0": { "base": "block/plant/crop/soybean/normal11" } },
+            "*-rice": { "crop": { "base": "block/plant/crop/rice/normal10" } },
+            "*-rye": { "crop": { "base": "block/plant/crop/rye/normal9" } },
+            "*-spelt": { "crop": { "base": "block/plant/crop/spelt/normal9" } },
+            "*-flax": { "crop": { "base": "block/plant/crop/flax/normal9" } },
+            "*-pumpkin": {
+              "south": { "base": "block/plant/pumpkin/motherplant/stage7-south" },
+              "north": { "base": "block/plant/pumpkin/motherplant/stage7-north" },
+              "0": { "base": "block/plant/pumpkin/fruit/stage4-side" },
+              "1": { "base": "block/plant/pumpkin/fruit/stage4-top" },
+              "2": { "base": "block/plant/pumpkin/fruit/stage4-bottom" }
+            },
+            "*-amaranth": {
+              "0": { "base": "block/plant/crop/amaranth/e9" },
+              "1": { "base": "block/plant/crop/amaranth/w9" }
+            },
+            "*-peanut": { "crop": { "base": "block/plant/crop/peanut/normal9" } }
+          }
+        },
+        "smallContainer": {
+          "randomRotate": true,
+          "shapeByType": {
+            "@.*-(carrot|pineapple|sunflower|cabbage|onion|turnip|parsnip|cassava|bellpepper|pumpkin)": { "base": "fancyplanters:shapes/planted/crop/flowerpot-{type}-*" },
+            "@.*-(flax|rye|rice|spelt)": { "base": "fancyplanters:shapes/planted/crop/flowerpot-default*" },
+            "*-amaranth": { "base": "fancyplanters:shapes/planted/crop/flowerpot-tallcrossdense" },
+            "*-soybean": { "base": "fancyplanters:shapes/planted/crop/planter-cross" },
+            "*-peanut": { "base": "fancyplanters:shapes/planted/crop/flowerpot-densevegetable" },
+            "*": { "base": "fancyplanters:shapes/planted/crop/flowerpot-default*" }
+          },
+          "texturesByType": {
+            "*-sunflower": {
+              "normal7-12": { "base": "block/plant/crop/sunflower/normal7-12" },
+              "stem": { "base": "block/plant/crop/sunflower/stem" }
+            },
+            "*-soybean": { "0": { "base": "block/plant/crop/soybean/normal11" } },
+            "*-rice": { "crop": { "base": "block/plant/crop/rice/normal10" } },
+            "*-rye": { "crop": { "base": "block/plant/crop/rye/normal9" } },
+            "*-spelt": { "crop": { "base": "block/plant/crop/spelt/normal9" } },
+            "*-flax": { "crop": { "base": "block/plant/crop/flax/normal9" } },
+            "*-pumpkin": {
+              "south": { "base": "block/plant/pumpkin/motherplant/stage7-south" },
+              "north": { "base": "block/plant/pumpkin/motherplant/stage7-north" },
+              "0": { "base": "block/plant/pumpkin/fruit/stage4-side" },
+              "1": { "base": "block/plant/pumpkin/fruit/stage4-top" },
+              "2": { "base": "block/plant/pumpkin/fruit/stage4-bottom" }
+            },
+            "*-amaranth": {
+              "0": { "base": "block/plant/crop/amaranth/e9" },
+              "1": { "base": "block/plant/crop/amaranth/w9" }
+            },
+            "*-peanut": { "crop": { "base": "block/plant/crop/peanut/normal9" } }
+          }
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/seeds.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "game:itemtypes/resource/seeds.json"
+  }
+]

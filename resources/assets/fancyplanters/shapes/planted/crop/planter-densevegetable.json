@@ -1,0 +1,126 @@
+{
+  "editor": {
+    "allAngles": false,
+    "entityTextureMode": false
+  },
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {},
+  "textures": {
+    "crop": "block/plant/crop/spelt/normal8"
+  },
+  "elements": [
+    {
+      "name": "origin",
+      "from": [8.0, 0.0, 8.0],
+      "to": [8.0, 0.0, 8.0],
+      "rotationOrigin": [8.0, 0.0, 8.0],
+      "faces": {
+        "north": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false },
+        "east": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false },
+        "south": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false },
+        "west": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false },
+        "up": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false },
+        "down": { "texture": "#crop", "uv": [0.0, 0.0, 0.5, 0.5], "enabled": false }
+      },
+      "children": [
+        {
+          "name": "N",
+          "from": [-5.6, 0.0, -3.5],
+          "to": [5.6, 11.2, -3.5],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -5.6],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windMode": [1, 1, 1, 1], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.35], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.35], "enabled": false }
+          }
+        },
+        {
+          "name": "S",
+          "from": [-5.6, 0.0, 2.8],
+          "to": [5.6, 11.2, 2.8],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -4.9],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windMode": [4, 4, 4, 4], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.35], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.35], "enabled": false }
+          }
+        },
+        {
+          "name": "W",
+          "from": [-2.8, 0.0, -5.6],
+          "to": [-2.8, 11.2, 5.6],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -5.6],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windMode": [1, 1, 1, 1], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false }
+          }
+        },
+        {
+          "name": "E",
+          "from": [2.8, 0.0, -5.6],
+          "to": [2.8, 11.2, 5.6],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -5.6],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windMode": [1, 1, 1, 1], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 0.35, 11.2], "enabled": false }
+          }
+        },
+        {
+          "name": "Mid-SW",
+          "from": [0.0, 0.0, -5.6],
+          "to": [0.0, 11.2, 5.6],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -5.6],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false, "windMode": [1, 1, 1, 1], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false }
+          }
+        },
+        {
+          "name": "Mid-NE",
+          "from": [-5.6, 0.0, 0.0],
+          "to": [5.6, 11.2, 0.0],
+          "shade": false,
+          "renderPass": 2,
+          "rotationOrigin": [-5.6, 0.0, -5.6],
+          "faces": {
+            "north": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "enabled": false, "windMode": [1, 1, 1, 1], "windData": [0, 1, 1, 0] },
+            "east": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false, "windData": [0, 1, 1, 0] },
+            "south": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 11.2], "windMode": [0, 0, 2, 2], "windData": [0, 0, 1, 1] },
+            "west": { "texture": "#crop", "uv": [0.0, 0.0, 0.0, 11.2], "enabled": false, "windData": [0, 0, 1, 1] },
+            "up": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.0], "enabled": false, "windData": [1, 1, 1, 1] },
+            "down": { "texture": "#crop", "uv": [0.0, 0.0, 11.2, 0.0], "enabled": false }
+          }
+        }
+      ]
+    }
+  ]
+}

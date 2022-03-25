@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/plantContainable/fplanter2x1Container",
+    "value": {
+      "randomRotate": false,
+      "shape": {
+        "base": "fancyplanters:shapes/planted/mushroom/planter2x1/{mushroom}/normal*"
+      }
+    },
+    "file": "game:blocktypes/plant/mushroom.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*-normal"],
+    "file": "game:blocktypes/plant/mushroom.json"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "plantContainable": {
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-jalapeno-stage8" },
+          "textures": {
+            "largeleavesjalapenos": { "base": "potatoes:block/plant/crop/jalapeno/largeleavesjalapenos" },
+            "stemandlsmallleaves": { "base": "potatoes:block/plant/crop/jalapeno/stemandlsmallleaves" }
+          }
+        },
+        "largeContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-jalapeno-stage8" },
+          "textures": {
+            "largeleavesjalapenos": { "base": "potatoes:block/plant/crop/jalapeno/largeleavesjalapenos" },
+            "stemandlsmallleaves": { "base": "potatoes:block/plant/crop/jalapeno/stemandlsmallleaves" }
+          }
+        },
+        "smallContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-jalapeno-stage8" },
+          "textures": {
+            "largeleavesjalapenos": { "base": "potatoes:block/plant/crop/jalapeno/largeleavesjalapenos" },
+            "stemandlsmallleaves": { "base": "potatoes:block/plant/crop/jalapeno/stemandlsmallleaves" }
+          }
+        }
+      }
+    },
+    "file": "potatoes:itemtypes/resource/jalapenoseeds.json",
+    "dependsOn": [{ "modid": "potatoes" }]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "potatoes:itemtypes/resource/jalapenoseeds.json",
+    "dependsOn": [{ "modid": "potatoes" }]
+  }
+]

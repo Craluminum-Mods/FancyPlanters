@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/plantContainable/fplanter2x1Container",
+    "value": {
+      "randomRotate": false,
+      "shape": { "base": "fancyplanters:shapes/block/clay/planter2x1/contents" },
+      "textures": {
+        "north": { "base": "block/plant/potted/{flower}-{color}" },
+        "south": { "base": "block/plant/potted/{flower}-{color}" }
+      }
+    },
+    "file": "game:blocktypes/plant/flower-lupine.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*-free"],
+    "file": "game:blocktypes/plant/flower-lupine.json"
+  }
+]

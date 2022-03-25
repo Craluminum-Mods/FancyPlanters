@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/attributesByType/*-rusty/plantContainable",
+    "value": {
+      "smallContainer": {
+        "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+        "textures": {
+          "gray": { "base": "block/liquid/dye/gray" },
+          "white": { "base": "block/liquid/dye/white" },
+          "gear": { "base": "block/currency/rusty-iron" }
+        }
+      },
+      "largeContainer": {
+        "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+        "textures": {
+          "gray": { "base": "block/liquid/dye/gray" },
+          "white": { "base": "block/liquid/dye/white" },
+          "gear": { "base": "block/currency/rusty-iron" }
+        }
+      },
+      "fplanter2x1Container": {
+        "randomRotate": false,
+        "shape": { "base": "fancyplanters:shapes/planted/planter2x1-gear_plant" },
+        "textures": {
+          "gray": { "base": "block/liquid/dye/gray" },
+          "white": { "base": "block/liquid/dye/white" },
+          "gear": { "base": "block/currency/rusty-iron" }
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/gear.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributesByType/*",
+    "value": {
+      "plantContainable": {
+        "smallContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+          "textures": {
+            "gray": { "base": "block/liquid/dye/gray" },
+            "white": { "base": "block/liquid/dye/white" },
+            "gear": { "base": "item/resource/temporalgear" }
+          }
+        },
+        "largeContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+          "textures": {
+            "gray": { "base": "block/liquid/dye/gray" },
+            "white": { "base": "block/liquid/dye/white" },
+            "gear": { "base": "item/resource/temporalgear" }
+          }
+        },
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shape": { "base": "fancyplanters:shapes/planted/planter2x1-gear_plant" },
+          "textures": {
+            "gray": { "base": "block/liquid/dye/gray" },
+            "white": { "base": "block/liquid/dye/white" },
+            "gear": { "base": "item/resource/temporalgear" }
+          }
+        }
+      }
+    },
+    "file": "game:itemtypes/resource/gear.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "game:itemtypes/resource/gear.json"
+  }
+]

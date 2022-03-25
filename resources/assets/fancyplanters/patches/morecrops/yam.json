@@ -1,0 +1,44 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "plantContainable": {
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-yam-stage7" },
+          "textures": {
+            "e7": { "base": "potatoes:block/plant/crop/yam/e7" },
+            "s7": { "base": "potatoes:block/plant/crop/yam/s7" },
+            "bulb": { "base": "potatoes:block/plant/crop/yam/bulb" }
+          }
+        },
+        "largeContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-yam-stage7" },
+          "textures": {
+            "e7": { "base": "potatoes:block/plant/crop/yam/e7" },
+            "s7": { "base": "potatoes:block/plant/crop/yam/s7" },
+            "bulb": { "base": "potatoes:block/plant/crop/yam/bulb" }
+          }
+        },
+        "smallContainer": {
+          "shape": { "base": "fancyplanters:shapes/planted/crop/flowerpot-morecrops-yam-stage7" },
+          "textures": {
+            "e7": { "base": "potatoes:block/plant/crop/yam/e7" },
+            "s7": { "base": "potatoes:block/plant/crop/yam/s7" },
+            "bulb": { "base": "potatoes:block/plant/crop/yam/bulb" }
+          }
+        }
+      }
+    },
+    "file": "potatoes:itemtypes/resource/yamseeds.json",
+    "dependsOn": [{ "modid": "potatoes" }]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "potatoes:itemtypes/resource/yamseeds.json",
+    "dependsOn": [{ "modid": "potatoes" }]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "CC",
+  "ingredients": {
+    "C": { "type": "item", "code": "planter2x1half" }
+  },
+  "width": 2,
+  "height": 1,
+  "recipeGroup": 1,
+  "output": { "type": "block", "code": "planter2x1-raw-north" }
+}

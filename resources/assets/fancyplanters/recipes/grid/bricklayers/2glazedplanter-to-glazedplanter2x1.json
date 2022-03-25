@@ -1,0 +1,57 @@
+[
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-*-plain", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-clear-{color}-plain-north" }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-*-checker", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-clear-{color}-checker-north" }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-clear-*-lines", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-clear-{color}-lines-north" }
+  },
+
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-*-plain", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-milky-{color}-plain-north" }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-*-checker", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-milky-{color}-checker-north" }
+  },
+  {
+    "ingredientPattern": "CC",
+    "ingredients": {
+      "C": { "type": "block", "code": "bricklayers:glazedplanter-burnt-milky-*-lines", "name": "color" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "bl_glazedplanter2x1-burnt-milky-{color}-lines-north" }
+  }
+]
