@@ -19,13 +19,13 @@
   "maxStackSize": 8,
   "textures": { "all": { "base": "game:block/clay/blueclay" } },
   "guiTransform": {
+    "rotate": true,
     "translation": { "x": 0, "y": 0, "z": 0 },
     "rotation": { "x": -29, "y": 120, "z": 180 },
     "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
     "scale": 1.3
   },
   "groundTransform": {
-    "rotate": true,
     "translation": { "x": 0, "y": 0, "z": 0 },
     "rotation": { "x": 0, "y": 0, "z": 0 },
     "origin": { "x": 0.5, "y": 0, "z": 0.5 },
