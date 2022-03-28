@@ -5,8 +5,8 @@
       "label": "Pack",
       "type": "shell",
       "command": [
-        "mkdir ${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.3;",
-        "cp -r resources/* ${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.3"
+        "mkdir ${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.4;",
+        "cp -r resources/* ${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.4"
       ],
       "presentation": {
         "reveal": "silent"
@@ -20,8 +20,9 @@
       "args": [
           "a",
           "-tzip",
-          "${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.3.zip",
-          ".\\resources\\*"
+          "${env:VINTAGE_STORY_DATA}\\Mods\\${workspaceFolderBasename}-v1.0.4.zip",
+          ".\\resources\\*",
+          ".\\license",
       ],
       "presentation": {
         "reveal": "silent"
