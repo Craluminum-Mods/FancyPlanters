@@ -1,0 +1,193 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"material": "block/stone/mineral/milkyquartz",
+		"material-top": "block/stone/mineral/milkyquartz-top"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ], 
+			"to": [ 8.0, 0.0, 8.0 ], 
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#material", "uv": [ 6.5, 12.0, 7.0, 12.5 ], "enabled": false },
+				"east": { "texture": "#material", "uv": [ 4.5, 11.0, 5.0, 11.5 ], "enabled": false },
+				"south": { "texture": "#material", "uv": [ 5.5, 14.5, 6.0, 15.0 ], "enabled": false },
+				"west": { "texture": "#material", "uv": [ 6.0, 13.0, 6.5, 13.5 ], "enabled": false },
+				"up": { "texture": "#material", "uv": [ 11.0, 12.0, 11.5, 12.5 ], "enabled": false },
+				"down": { "texture": "#material", "uv": [ 3.0, 14.0, 3.5, 14.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "crystal 1",
+					"from": [ -0.15, -0.15, -0.15 ], 
+					"to": [ 0.9, 2.55, 0.9 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 0.3, -0.15, 0.3 ],
+					"rotationX": 16.0,
+					"rotationY": 4.0,
+					"rotationZ": 6.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 5.5, 10.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 12.5, 10.0 ] },
+						"south": { "texture": "#material", "uv": [ 12.0, 1.0, 15.5, 10.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 12.0, 10.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 9.5, 10.0, 13.0, 13.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 3.5, 3.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 3",
+					"from": [ -1.05, -0.12, -1.05 ], 
+					"to": [ -0.3, 1.98, -0.3 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ -0.6, -0.12, -0.6 ],
+					"rotationX": -21.0,
+					"rotationY": 28.0,
+					"rotationZ": 15.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.5, 8.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.5, 8.0 ] },
+						"south": { "texture": "#material", "uv": [ 13.0, 1.0, 15.5, 8.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 11.0, 8.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 11.5, 10.5, 14.0, 13.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 2.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 4",
+					"from": [ 0.66, -0.21, 0.75 ], 
+					"to": [ 1.41, 3.69, 1.5 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 1.11, -0.21, 1.2 ],
+					"rotationX": 19.0,
+					"rotationY": 36.0,
+					"rotationZ": -19.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.5, 14.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.5, 14.0 ] },
+						"south": { "texture": "#material", "uv": [ 12.0, 1.0, 14.5, 14.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 11.0, 14.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 4.5, 8.5, 7.0, 11.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.5, 2.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 5",
+					"from": [ 0.27, -0.24, -1.11 ], 
+					"to": [ 1.32, 3.06, -0.06 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 0.72, -0.24, -0.66 ],
+					"rotationX": -16.0,
+					"rotationY": 4.0,
+					"rotationZ": -16.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 5.5, 12.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 12.5, 12.0 ] },
+						"south": { "texture": "#material", "uv": [ 12.0, 1.0, 15.5, 12.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 12.0, 12.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 4.0, 3.5, 7.5, 7.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 3.5, 3.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 7",
+					"from": [ 1.14, -0.18, 0.15 ], 
+					"to": [ 1.74, 1.32, 0.75 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 1.59, -0.18, 0.6 ],
+					"rotationX": -25.0,
+					"rotationY": -39.0,
+					"rotationZ": -34.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.0, 6.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.0, 6.0 ] },
+						"south": { "texture": "#material", "uv": [ 12.0, 1.0, 14.0, 6.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 10.5, 6.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 2.0, 4.5, 4.0, 6.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 8",
+					"from": [ -0.3, -0.12, 0.75 ], 
+					"to": [ 0.15, 1.38, 1.2 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 0.15, -0.12, 1.2 ],
+					"rotationX": 8.0,
+					"rotationY": 59.0,
+					"rotationZ": 35.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 3.5, 6.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 10.5, 6.0 ] },
+						"south": { "texture": "#material", "uv": [ 13.0, 1.0, 14.5, 6.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 10.0, 6.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 13.5, 10.0, 15.0, 11.5 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 9",
+					"from": [ -1.11, -0.15, -0.15 ], 
+					"to": [ -0.51, 2.7, 0.45 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ -0.66, -0.15, 0.3 ],
+					"rotationX": -18.0,
+					"rotationY": 39.0,
+					"rotationZ": 30.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.0, 10.5 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.0, 10.5 ] },
+						"south": { "texture": "#material", "uv": [ 13.0, 1.0, 15.0, 10.5 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 10.5, 10.5 ] },
+						"up": { "texture": "#material-top", "uv": [ 2.0, 9.0, 4.0, 11.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 10",
+					"from": [ -0.45, -0.15, -0.81 ], 
+					"to": [ 0.15, 3.75, -0.21 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ 0.0, -0.15, -0.36 ],
+					"rotationX": -8.0,
+					"rotationY": 43.0,
+					"rotationZ": 9.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.0, 14.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.0, 14.0 ] },
+						"south": { "texture": "#material", "uv": [ 13.0, 1.0, 15.0, 14.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 10.5, 14.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 12.5, 13.0, 14.5, 15.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "crystal 11",
+					"from": [ -0.63, -0.18, -1.65 ], 
+					"to": [ -0.03, 0.72, -1.05 ], 
+					"renderPass": 3,
+					"rotationOrigin": [ -0.18, -0.18, -1.2 ],
+					"rotationX": -32.0,
+					"rotationY": -56.0,
+					"rotationZ": -11.0,
+					"faces": {
+						"north": { "texture": "#material", "uv": [ 2.0, 1.0, 4.0, 4.0 ] },
+						"east": { "texture": "#material", "uv": [ 9.0, 1.0, 11.0, 4.0 ] },
+						"south": { "texture": "#material", "uv": [ 12.0, 1.0, 14.0, 4.0 ] },
+						"west": { "texture": "#material", "uv": [ 8.5, 1.0, 10.5, 4.0 ] },
+						"up": { "texture": "#material-top", "uv": [ 4.0, 11.0, 6.0, 13.0 ] },
+						"down": { "texture": "#material", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

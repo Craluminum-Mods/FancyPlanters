@@ -1,0 +1,91 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/plantContainable",
+    "value": {
+      "smallContainer": {
+        "shape": { "base": "fancyplanters:shapes/planted/mineral/flowerpot-{variant}" },
+        "texturesByType": {
+          "crystal-milkyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/milkyquartz-top" },
+            "material": { "base": "game:block/stone/mineral/milkyquartz" }
+          },
+          "crystal-rosequartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/rosequartz-top" },
+            "material": { "base": "game:block/stone/mineral/rosequartz" }
+          },
+          "crystal-smokyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/smokyquartz" },
+            "material": { "base": "game:block/stone/mineral/smokyquartz" }
+          },
+          "crystal-amethyst-*": {
+            "material-top": { "base": "game:block/stone/mineral/amethyst" },
+            "material": { "base": "game:block/stone/mineral/amethyst" }
+          },
+          "crystal-olivine-*": {
+            "material-top": { "base": "game:block/stone/mineral/olivine" },
+            "material": { "base": "game:block/stone/mineral/olivine" }
+          }
+        }
+      },
+      "largeContainer": {
+        "shape": { "base": "fancyplanters:shapes/planted/mineral/planter-{variant}" },
+        "texturesByType": {
+          "crystal-milkyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/milkyquartz-top" },
+            "material": { "base": "game:block/stone/mineral/milkyquartz" }
+          },
+          "crystal-rosequartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/rosequartz-top" },
+            "material": { "base": "game:block/stone/mineral/rosequartz" }
+          },
+          "crystal-smokyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/smokyquartz" },
+            "material": { "base": "game:block/stone/mineral/smokyquartz" }
+          },
+          "crystal-amethyst-*": {
+            "material-top": { "base": "game:block/stone/mineral/amethyst" },
+            "material": { "base": "game:block/stone/mineral/amethyst" }
+          },
+          "crystal-olivine-*": {
+            "material-top": { "base": "game:block/stone/mineral/olivine" },
+            "material": { "base": "game:block/stone/mineral/olivine" }
+          }
+        }
+      },
+      "fplanter2x1Container": {
+        "randomRotate": false,
+        "shape": { "base": "fancyplanters:shapes/planted/mineral/planter2x1-{variant}" },
+        "texturesByType": {
+          "crystal-milkyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/milkyquartz-top" },
+            "material": { "base": "game:block/stone/mineral/milkyquartz" }
+          },
+          "crystal-rosequartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/rosequartz-top" },
+            "material": { "base": "game:block/stone/mineral/rosequartz" }
+          },
+          "crystal-smokyquartz-*": {
+            "material-top": { "base": "game:block/stone/mineral/smokyquartz" },
+            "material": { "base": "game:block/stone/mineral/smokyquartz" }
+          },
+          "crystal-amethyst-*": {
+            "material-top": { "base": "game:block/stone/mineral/amethyst" },
+            "material": { "base": "game:block/stone/mineral/amethyst" }
+          },
+          "crystal-olivine-*": {
+            "material-top": { "base": "game:block/stone/mineral/olivine" },
+            "material": { "base": "game:block/stone/mineral/olivine" }
+          }
+        }
+      }
+    },
+    "file": "game:blocktypes/stone/crystal-largecluster.json"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*-up"],
+    "file": "game:blocktypes/stone/crystal-largecluster.json"
+  }
+]
