@@ -1,6 +1,6 @@
 {
-  "game:tabname-fancyplanters": "Причудливые Вазоны",
-  "game:tabname-fpallowed": "Предметы Для Вазонов",
+  "game:tabname-fancyplanters": "Вишукані Вазони",
+  "game:tabname-fpallowed": "Предмети Для Вазонів",
 
   "fancyplanters:block-planter2x1-raw-north": "Сирий глиняний вазон (2x1)",
   "fancyplanters:block-planter2x1-burnt-north": "Глиняний вазон (2x1)",
@@ -31,7 +31,7 @@
   "fancyplanters:block-bl_coloredplanter2x1-burnt-palegreen-north": "Кольоровий вазон (2x1) (Блідо зелений)",
   "fancyplanters:block-bl_coloredplanter2x1-burnt-palered-north": "Кольоровий вазон (2x1) (Блідо червоний)",
   "fancyplanters:block-bl_coloredplanter2x1-burnt-pink-north": "Кольоровий вазон (2x1) (Рожевий)",
-  "fancyplanters:block-bl_coloredplanter2x1-burnt-purple-north": "Кольоровий вазон (2x1) (Пурпурный)",
+  "fancyplanters:block-bl_coloredplanter2x1-burnt-purple-north": "Кольоровий вазон (2x1) (Пурпурний)",
   "fancyplanters:block-bl_coloredplanter2x1-burnt-red-north": "Кольоровий вазон (2x1) (Червоний)",
   "fancyplanters:block-bl_coloredplanter2x1-burnt-sunflower-north": "Кольоровий вазон (2x1) (Соняшниковий)",
   "fancyplanters:block-bl_coloredplanter2x1-burnt-white-north": "Кольоровий вазон (2x1) (Білий)",
