@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "plantContainable": {
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-cross" },
+          "textures": { "0": { "base": "block/plant/crop/{type}/normal8" } }
+        },
+        "largeContainer": {
+          "randomRotate": true,
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-cross" },
+          "textures": { "0": { "base": "block/plant/crop/{type}/normal8" } }
+        },
+        "smallContainer": {
+          "randomRotate": true,
+          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-cross" },
+          "textures": { "0": { "base": "block/plant/crop/{type}/normal8" } }
+        }
+      }
+    },
+    "file": "hideandfabric:itemtypes/resource/seeds.json",
+    "dependsOn": [{ "modid": "hideandfabric" }]
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "hideandfabric:itemtypes/resource/seeds.json",
+    "dependsOn": [{ "modid": "hideandfabric" }]
+  }
+]
