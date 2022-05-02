@@ -80,8 +80,8 @@
   },
   "collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.5625, "z2": 0.875 },
   "guiTransform": {
-    "translation": { "x": -9, "y": 0, "z": 0 },
-    "scale": 0.89
+    "origin": { "x": 1, "y": 0.5, "z": 0.5 },
+    "scale": 0.85
   },
   "fpHandTransform": {
     "rotation": { "x": 0, "y": 0, "z": 0 }
