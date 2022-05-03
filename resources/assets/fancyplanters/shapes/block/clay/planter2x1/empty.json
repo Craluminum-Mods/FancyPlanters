@@ -45,7 +45,7 @@
 							"from": [ -1.0, 0.0, -1.0 ], 
 							"to": [ 13.0, 9.0, 0.0 ], 
 							"faces": {
-								"north": { "texture": "#sides", "uv": [ 2.0, 7.0, 14.0, 16.0 ], "autoUv": false },
+								"north": { "texture": "#sides", "uv": [ 0.0, 7.0, 14.0, 16.0 ], "autoUv": false },
 								"east": { "texture": "#sides", "uv": [ 1.0, 7.0, 2.0, 16.0 ], "autoUv": false },
 								"south": { "texture": "#ceramic", "uv": [ 0.0, 6.0, 14.0, 15.0 ] },
 								"west": { "texture": "#sides", "uv": [ 14.0, 7.0, 15.0, 16.0 ] },
@@ -60,7 +60,7 @@
 							"faces": {
 								"north": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 14.0, 9.0 ], "autoUv": false },
 								"east": { "texture": "#sides", "uv": [ 14.0, 7.0, 15.0, 16.0 ] },
-								"south": { "texture": "#sides", "uv": [ 2.0, 7.0, 14.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#sides", "uv": [ 2.0, 7.0, 16.0, 16.0 ], "autoUv": false },
 								"west": { "texture": "#sides", "uv": [ 1.0, 7.0, 2.0, 16.0 ] },
 								"up": { "texture": "#sides", "uv": [ 2.0, 6.0, 14.0, 7.0 ], "autoUv": false },
 								"down": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 14.0, 1.0 ], "autoUv": false }
@@ -113,7 +113,7 @@
 							"to": [ 27.0, 9.0, 0.0 ], 
 							"rotationOrigin": [ 14.0, 0.0, 0.0 ],
 							"faces": {
-								"north": { "texture": "#sides", "uv": [ 2.0, 7.0, 14.0, 16.0 ], "autoUv": false },
+								"north": { "texture": "#sides", "uv": [ 2.0, 7.0, 16.0, 16.0 ], "autoUv": false },
 								"east": { "texture": "#sides", "uv": [ 1.0, 7.0, 2.0, 16.0 ], "autoUv": false },
 								"south": { "texture": "#ceramic", "uv": [ 2.0, 1.0, 16.0, 10.0 ] },
 								"west": { "texture": "#sides", "uv": [ 14.0, 7.0, 15.0, 16.0 ] },
@@ -129,7 +129,7 @@
 							"faces": {
 								"north": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 14.0, 9.0 ], "autoUv": false },
 								"east": { "texture": "#sides", "uv": [ 14.0, 7.0, 15.0, 16.0 ] },
-								"south": { "texture": "#sides", "uv": [ 2.0, 7.0, 14.0, 16.0 ], "autoUv": false },
+								"south": { "texture": "#sides", "uv": [ 0.0, 7.0, 14.0, 16.0 ], "autoUv": false },
 								"west": { "texture": "#sides", "uv": [ 1.0, 7.0, 2.0, 16.0 ] },
 								"up": { "texture": "#sides", "uv": [ 2.0, 6.0, 14.0, 7.0 ], "autoUv": false },
 								"down": { "texture": "#ceramic", "uv": [ 0.0, 0.0, 14.0, 1.0 ] }
