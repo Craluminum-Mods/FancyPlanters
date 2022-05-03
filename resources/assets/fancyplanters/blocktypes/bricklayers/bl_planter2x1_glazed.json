@@ -38,7 +38,7 @@
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],
   "maxStackSize": 4,
-  "creativeinventory": { "fancyplanters": ["*-north"] },
+  "creativeinventory": { "general": ["*-north"], "decorative": ["*-north"], "fancyplanters": ["*-north"] },
   "shape": { "base": "fancyplanters:bricklayers/block/clay/planter2x1/empty" },
   "blockmaterial": "Ceramic",
   "replaceable": 900,
