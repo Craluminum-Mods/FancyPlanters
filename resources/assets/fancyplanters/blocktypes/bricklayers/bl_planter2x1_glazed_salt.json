@@ -2,7 +2,7 @@
   "code": "bl_saltglazedplanter2x1",
   "classByType": {
     "*-empty": "Block",
-    "*": "BlockPlantContainer"
+    "*": "Planter2x1"
   },
   "entityClass": "PlantContainer",
   "behaviors": [
@@ -136,7 +136,19 @@
   "sidesolid": { "all": false },
   "sideopaque": { "all": false },
   "emitsideao": { "all": false },
-  "collisionSelectionBox": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 0.5625, "z2": 0.875 },
+  "collisionSelectionBox": {
+    "x1": 0.125,
+    "y1": 0,
+    "z1": 0.125,
+    "x2": 1,
+    "y2": 0.5625,
+    "z2": 0.875,
+    "rotateYByType": {
+      "*-east": 270,
+      "*-west": 90,
+      "*-south": 180
+    }
+  },
   "guiTransform": {
     "translation": { "x": -9, "y": 0, "z": 0 },
     "scale": 0.89
