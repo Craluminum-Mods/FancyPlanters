@@ -1,0 +1,142 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/plantContainable",
+    "value": {
+      "fplanter2x1Container": {
+        "randomRotate": false,
+        "shape": {
+          "baseByType": {
+            "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": "fancyplanters:planted/crop/planter2x1-cross",
+            "*-lavender": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-shrub",
+            "@.*-(mugwort|sedge)": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-bushy_normal",
+            "*-minerslettuce": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-minerslettuce_normal1",
+            "@.*-(burdock|thistle)": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-burdock_normal1",
+            "*-inula": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-inula_normal1",
+            "*-stingingnettle": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-stingingnettle_normal1",
+            "*": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-default_normal"
+          }
+        },
+        "texturesByType": {
+          "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": { "0": { "base": "game:block/plant/herb/{herbs}" } },
+          "*-lavender": { "shrub": { "base": "game:block/plant/herb/lavender" } },
+          "*-minerslettuce": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
+            "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
+          },
+          "*-burdock": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big" }
+          },
+          "*-thistle": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_big" }
+          },
+          "*-inula": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_stem" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_leaf" }
+          },
+          "*-stingingnettle": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/stingingnettle_normal" } },
+          "*": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/{herbs}" } }
+        }
+      },
+      "largeContainer": {
+        "randomRotate": true,
+        "shape": {
+          "baseByType": {
+            "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": "fancyplanters:planted/crop/planter-cross",
+            "*-lavender": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-shrub",
+            "@.*-(mugwort|sedge)": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-bushy_normal",
+            "*-minerslettuce": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-minerslettuce_normal1",
+            "@.*-(burdock|thistle)": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-burdock_normal1",
+            "*-inula": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-inula_normal1",
+            "*-stingingnettle": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-stingingnettle_normal1",
+            "*": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-default_normal"
+          }
+        },
+        "texturesByType": {
+          "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": { "0": { "base": "game:block/plant/herb/{herbs}" } },
+          "*-lavender": { "shrub": { "base": "game:block/plant/herb/lavender" } },
+          "*-minerslettuce": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
+            "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
+          },
+          "*-burdock": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big" }
+          },
+          "*-thistle": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_big" }
+          },
+          "*-inula": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_stem" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_leaf" }
+          },
+          "*-stingingnettle": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/stingingnettle_normal" } },
+          "*": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/{herbs}" } }
+        }
+      },
+      "smallContainer": {
+        "randomRotate": true,
+        "shape": {
+          "baseByType": {
+            "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": "fancyplanters:planted/crop/planter-cross",
+            "*-lavender": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-shrub",
+            "@.*-(mugwort|sedge)": "fancyplanters:planted/wildcraft/leafygroundvegetable/flowerpot-bushy_normal",
+            "*-minerslettuce": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-minerslettuce_normal1",
+            "@.*-(burdock|thistle)": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-burdock_normal1",
+            "*-inula": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-inula_normal1",
+            "*-stingingnettle": "fancyplanters:planted/wildcraft/leafygroundvegetable/flowerpot-stingingnettle_normal1",
+            "*": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-default_normal"
+          }
+        },
+        "texturesByType": {
+          "@.*-(basil|chamomile|marjoram|mint|saffron|sage|thyme)": { "0": { "base": "game:block/plant/herb/{herbs}" } },
+          "*-lavender": { "shrub": { "base": "game:block/plant/herb/lavender" } },
+          "*-minerslettuce": {
+            "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" },
+            "stems": { "base": "wildcraft:block/plant/leafygroundvegetable/minerlettucebase" }
+          },
+          "*-burdock": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_leaf_big" }
+          },
+          "*-thistle": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_stem" },
+            "burdock_flowers": { "base": "wildcraft:block/plant/leafygroundvegetable/burdock_flowers" },
+            "burdock_leaf_small": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_small" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/thistle_leaf_big" }
+          },
+          "*-inula": {
+            "burdock_stem": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_stem" },
+            "burdock_leaf_big": { "base": "wildcraft:block/plant/leafygroundvegetable/inula_leaf" }
+          },
+          "*-stingingnettle": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/stingingnettle_normal" } },
+          "*": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/{herbs}" } }
+        }
+      }
+    },
+    "file": "wildcraft:itemtypes/resources/herbseeds.json",
+    "dependsOn": [{ "modid": "wildcraft" }],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "wildcraft:itemtypes/resources/herbseeds.json",
+    "dependsOn": [{ "modid": "wildcraft" }],
+    "side": "server"
+  }
+]

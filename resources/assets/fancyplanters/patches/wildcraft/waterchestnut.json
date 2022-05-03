@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "plantContainable": {
+        "fplanter2x1Container": {
+          "randomRotate": false,
+          "shape": { "base": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter2x1-bushy_normal.json" },
+          "textures": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/waterchestnut" } }
+        },
+        "largeContainer": {
+          "randomRotate": true,
+          "shape": { "base": "fancyplanters:planted/wildcraft/leafygroundvegetable/planter-bushy_normal" },
+          "textures": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/waterchestnut" } }
+        },
+        "smallContainer": {
+          "randomRotate": true,
+          "shape": { "base": "fancyplanters:planted/wildcraft/leafygroundvegetable/flowerpot-bushy_normal" },
+          "textures": { "leaves": { "base": "wildcraft:block/plant/leafygroundvegetable/normal/waterchestnut" } }
+        }
+      }
+    },
+    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
+    "dependsOn": [{ "modid": "wildcraft" }],
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/creativeinventory/fpallowed",
+    "value": ["*"],
+    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
+    "dependsOn": [{ "modid": "wildcraft" }],
+    "side": "server"
+  }
+]

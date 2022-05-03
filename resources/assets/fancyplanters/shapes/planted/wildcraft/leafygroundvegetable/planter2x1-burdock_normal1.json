@@ -1,0 +1,354 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Leaves",
+			"from": [ 8.0, 0.0, 0.0 ], 
+			"to": [ 8.0, 24.0, 16.0 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Leaves2",
+					"from": [ -7.0E-4, 0.0, -0.0024 ], 
+					"to": [ -7.0E-4, 24.0, 15.9976 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BigLeaf",
+					"from": [ -4.0, 4.0, -4.0 ], 
+					"to": [ 4.0, 4.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": 22.5,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 8.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#burdock_leaf_big", "uv": [ 5.3333, 4.0, 11.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "SmallLeaf",
+					"from": [ -2.0, 11.0, 0.0 ], 
+					"to": [ 2.0, 11.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 11.0, 8.0 ],
+					"rotationX": 22.5,
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "SmallLeaf7",
+					"from": [ -2.0, 15.0, 0.0 ], 
+					"to": [ 2.0, 15.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 15.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2], "windData": [1,0,0,1] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BigLeaf8",
+					"from": [ -4.0, 4.0, -4.0 ], 
+					"to": [ 4.0, 4.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationY": 22.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 8.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_big", "uv": [ 5.3333, 4.0, 11.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "SmallLeaf9",
+					"from": [ -2.0, 11.0, 0.0 ], 
+					"to": [ 2.0, 11.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 11.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationY": -67.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Flowers",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 16.0 ], 
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Flowers2",
+							"from": [ -7.0E-4, 0.0, -0.0024 ], 
+							"to": [ -7.0E-4, 24.0, 15.9976 ], 
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 90.0,
+							"faces": {
+								"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+								"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+								"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+								"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Leaves",
+			"from": [ 24.0, 0.0, 0.0 ], 
+			"to": [ 24.0, 24.0, 16.0 ], 
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalFoliage",
+			"renderPass": 1,
+			"rotationOrigin": [ 24.0, 0.0, 8.0 ],
+			"rotationY": -157.5,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+				"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Leaves2",
+					"from": [ -7.0E-4, 0.0, -0.0024 ], 
+					"to": [ -7.0E-4, 24.0, 15.9976 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#burdock_stem", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BigLeaf",
+					"from": [ -4.0, 4.0, -4.0 ], 
+					"to": [ 4.0, 4.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": 22.5,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 8.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#burdock_leaf_big", "uv": [ 5.3333, 4.0, 11.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "enabled": false, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "SmallLeaf",
+					"from": [ -2.0, 11.0, 0.0 ], 
+					"to": [ 2.0, 11.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 11.0, 8.0 ],
+					"rotationX": 22.5,
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "SmallLeaf7",
+					"from": [ -2.0, 15.0, 0.0 ], 
+					"to": [ 2.0, 15.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 15.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2], "windData": [1,0,0,1] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "BigLeaf8",
+					"from": [ -4.0, 4.0, -4.0 ], 
+					"to": [ 4.0, 4.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationY": 22.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 8.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 12.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_big", "uv": [ 5.3333, 4.0, 11.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "SmallLeaf9",
+					"from": [ -2.0, 11.0, 0.0 ], 
+					"to": [ 2.0, 11.0, 8.0 ], 
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 11.0, 8.0 ],
+					"rotationX": 157.5,
+					"rotationY": -67.5,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#burdock_leaf_big", "uv": [ 0.0, 2.0, 4.0, 2.5 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 8.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#burdock_leaf_small", "uv": [ 5.6667, 9.0, 10.0, 16.0 ], "autoUv": false, "windMode": [2,2,2,2] },
+						"down": { "texture": "#burdock_flowers", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Flowers",
+					"from": [ 0.0, 0.0, 0.0 ], 
+					"to": [ 0.0, 24.0, 16.0 ], 
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+						"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+						"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+						"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+						"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Flowers2",
+							"from": [ -7.0E-4, 0.0, -0.0024 ], 
+							"to": [ -7.0E-4, 24.0, 15.9976 ], 
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 90.0,
+							"faces": {
+								"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+								"east": { "texture": "#burdock_flowers", "uv": [ 2.0, 0.0, 14.0, 16.0 ], "autoUv": false, "windMode": [0,2,2,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 24.0 ], "enabled": false },
+								"west": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "enabled": false },
+								"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false },
+								"down": { "texture": "#leaves", "uv": [ 0.0, 0.0, 0.5, 16.0 ], "enabled": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}
