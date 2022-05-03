@@ -6,12 +6,14 @@
       "randomRotate": false,
       "shape": { "base": "fancyplanters:shapes/planted/fern/planter2x1/{type}-var*" }
     },
-    "file": "game:blocktypes/plant/fern.json"
+    "file": "game:blocktypes/plant/fern.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
-    "file": "game:blocktypes/plant/fern.json"
+    "file": "game:blocktypes/plant/fern.json",
+    "side": "server"
   }
 ]

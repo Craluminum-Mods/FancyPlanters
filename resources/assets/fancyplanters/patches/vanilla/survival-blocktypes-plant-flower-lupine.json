@@ -10,12 +10,14 @@
         "south": { "base": "block/plant/potted/{flower}-{color}" }
       }
     },
-    "file": "game:blocktypes/plant/flower-lupine.json"
+    "file": "game:blocktypes/plant/flower-lupine.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-free"],
-    "file": "game:blocktypes/plant/flower-lupine.json"
+    "file": "game:blocktypes/plant/flower-lupine.json",
+    "side": "server"
   }
 ]

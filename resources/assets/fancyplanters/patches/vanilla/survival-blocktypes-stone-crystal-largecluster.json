@@ -80,12 +80,14 @@
         }
       }
     },
-    "file": "game:blocktypes/stone/crystal-largecluster.json"
+    "file": "game:blocktypes/stone/crystal-largecluster.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-up"],
-    "file": "game:blocktypes/stone/crystal-largecluster.json"
+    "file": "game:blocktypes/stone/crystal-largecluster.json",
+    "side": "server"
   }
 ]

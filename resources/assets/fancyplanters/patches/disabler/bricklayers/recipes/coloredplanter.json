@@ -4,6 +4,7 @@
     "path": "/enabled",
     "file": "fancyplanters:recipes/grid/bricklayers/2coloredplanter-to-coloredplanter2x1.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   }
 ]

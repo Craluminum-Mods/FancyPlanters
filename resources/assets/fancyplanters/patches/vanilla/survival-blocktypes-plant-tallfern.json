@@ -10,12 +10,14 @@
         "south": { "base": "block/plant/potted/tallfern" }
       }
     },
-    "file": "game:blocktypes/plant/tallfern.json"
+    "file": "game:blocktypes/plant/tallfern.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
-    "file": "game:blocktypes/plant/tallfern.json"
+    "file": "game:blocktypes/plant/tallfern.json",
+    "side": "server"
   }
 ]

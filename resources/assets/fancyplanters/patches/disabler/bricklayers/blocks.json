@@ -4,20 +4,23 @@
     "path": "/enabled",
     "file": "fancyplanters:blocktypes/bricklayers/bl_planter2x1_colored.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/enabled",
     "file": "fancyplanters:blocktypes/bricklayers/bl_planter2x1_glazed.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/enabled",
     "file": "fancyplanters:blocktypes/bricklayers/bl_planter2x1_glazed_salt.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   }
 ]

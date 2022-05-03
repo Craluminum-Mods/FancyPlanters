@@ -6,12 +6,14 @@
       "randomRotate": false,
       "shapeByType": { "*": { "base": "fancyplanters:shapes/planted/sapling/planter2x1/{wood}-large" } }
     },
-    "file": "game:blocktypes/plant/plaintreesapling.json"
+    "file": "game:blocktypes/plant/plaintreesapling.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-free"],
-    "file": "game:blocktypes/plant/plaintreesapling.json"
+    "file": "game:blocktypes/plant/plaintreesapling.json",
+    "side": "server"
   }
 ]

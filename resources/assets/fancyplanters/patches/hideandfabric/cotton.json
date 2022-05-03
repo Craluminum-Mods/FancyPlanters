@@ -22,13 +22,15 @@
       }
     },
     "file": "hideandfabric:itemtypes/resource/seeds.json",
-    "dependsOn": [{ "modid": "hideandfabric" }]
+    "dependsOn": [{ "modid": "hideandfabric" }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
     "file": "hideandfabric:itemtypes/resource/seeds.json",
-    "dependsOn": [{ "modid": "hideandfabric" }]
+    "dependsOn": [{ "modid": "hideandfabric" }],
+    "side": "server"
   }
 ]

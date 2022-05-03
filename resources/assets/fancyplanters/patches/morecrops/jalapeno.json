@@ -29,13 +29,15 @@
       }
     },
     "file": "potatoes:itemtypes/resource/jalapenoseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }]
+    "dependsOn": [{ "modid": "potatoes" }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
     "file": "potatoes:itemtypes/resource/jalapenoseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }]
+    "dependsOn": [{ "modid": "potatoes" }],
+    "side": "server"
   }
 ]

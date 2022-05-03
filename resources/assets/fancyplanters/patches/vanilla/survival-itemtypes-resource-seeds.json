@@ -111,12 +111,14 @@
         }
       }
     },
-    "file": "game:itemtypes/resource/seeds.json"
+    "file": "game:itemtypes/resource/seeds.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
-    "file": "game:itemtypes/resource/seeds.json"
+    "file": "game:itemtypes/resource/seeds.json",
+    "side": "server"
   }
 ]

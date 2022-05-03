@@ -4,27 +4,31 @@
     "path": "/0/enabled",
     "file": "fancyplanters:recipes/grid/bricklayers/2saltglazedplanter-to-saltglazedplanter2x1.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/1/enabled",
     "file": "fancyplanters:recipes/grid/bricklayers/2saltglazedplanter-to-saltglazedplanter2x1.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/2/enabled",
     "file": "fancyplanters:recipes/grid/bricklayers/2saltglazedplanter-to-saltglazedplanter2x1.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/3/enabled",
     "file": "fancyplanters:recipes/grid/bricklayers/2saltglazedplanter-to-saltglazedplanter2x1.json",
     "value": false,
-    "dependsOn": [{ "modid": "bricklayers", "invert": true }]
+    "dependsOn": [{ "modid": "bricklayers", "invert": true }],
+    "side": "server"
   }
 ]

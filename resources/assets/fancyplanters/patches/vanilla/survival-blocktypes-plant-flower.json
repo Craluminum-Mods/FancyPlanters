@@ -16,12 +16,14 @@
         }
       }
     },
-    "file": "game:blocktypes/plant/flower.json"
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-free"],
-    "file": "game:blocktypes/plant/flower.json"
+    "file": "game:blocktypes/plant/flower.json",
+    "side": "server"
   }
 ]

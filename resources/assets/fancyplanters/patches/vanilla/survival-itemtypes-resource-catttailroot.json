@@ -10,12 +10,14 @@
         "south": { "base": "block/plant/potted/reeds" }
       }
     },
-    "file": "game:itemtypes/resource/catttailroot.json"
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*"],
-    "file": "game:itemtypes/resource/catttailroot.json"
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
   }
 ]

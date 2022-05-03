@@ -10,12 +10,14 @@
         "south": { "base": "block/plant/potted/tallgrass" }
       }
     },
-    "file": "game:blocktypes/plant/tallgrass.json"
+    "file": "game:blocktypes/plant/tallgrass.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-free"],
-    "file": "game:blocktypes/plant/tallgrass.json"
+    "file": "game:blocktypes/plant/tallgrass.json",
+    "side": "server"
   }
 ]

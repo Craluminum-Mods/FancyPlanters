@@ -6,12 +6,14 @@
       "randomRotate": false,
       "shape": { "base": "fancyplanters:shapes/planted/barrelcactus/planter2x1/normal*" }
     },
-    "file": "game:blocktypes/plant/barrelcactus.json"
+    "file": "game:blocktypes/plant/barrelcactus.json",
+    "side": "server"
   },
   {
     "op": "add",
     "path": "/creativeinventory/fpallowed",
     "value": ["*-normal"],
-    "file": "game:blocktypes/plant/barrelcactus.json"
+    "file": "game:blocktypes/plant/barrelcactus.json",
+    "side": "server"
   }
 ]
