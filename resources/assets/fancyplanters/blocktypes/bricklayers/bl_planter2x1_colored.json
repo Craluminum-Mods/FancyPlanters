@@ -1,98 +1,85 @@
 {
-  "code": "bl_coloredplanter2x1",
-  "classByType": {
-    "*-empty": "Block",
-    "*": "Planter2x1"
-  },
-  "entityClass": "PlantContainer",
-  "behaviors": [
-    { "name": "HorizontalOrientable" },
-    {
-      "name": "Multiblock",
-      "propertiesByType": {
-        "*-north": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 0, "y": 0, "z": 0 } },
-        "*-east": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 0 } },
-        "*-south": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 1, "y": 0, "z": 0 } },
-        "*-west": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 1 } }
-      }
-    }
-  ],
-  "attributes": {
-    "sitHeight": 0.75,
-    "beeFeedByType": { "*-empty": false, "*": true },
-    "butterflyFeedByType": { "*-empty": false, "*": true },
-    "plantContainerSize": "fplanter2x1",
-    "filledShape": { "base": "fancyplanters:block/clay/planter2x1/full" },
-    "fillHeight": 0.5
-  },
-  "heldTpIdleAnimation": "holdbothhandslarge",
-  "heldTpUseAnimation": "twohandplaceblock",
-  "variantgroups": [
-    { "code": "state", "states": ["burnt"] },
-    {
-      "code": "color",
-      "states": [
-        "black",
-        "blurple",
-        "brown",
-        "darkgrey",
-        "fire",
-        "green",
-        "malachite",
-        "orange",
-        "pink",
-        "purple",
-        "red",
-        "light",
-        "yellow",
-        "lavender",
-        "paleblue",
-        "palegreen",
-        "palered",
-        "sunflower",
-        "white"
-      ]
+    "code": "bl_coloredplanter2x1",
+    "classByType": {
+        "*-empty": "Block",
+        "*": "Planter2x1"
     },
-    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
-  ],
-  "maxStackSize": 4,
-  "creativeinventory": { "general": ["*-north"], "decorative": ["*-north"], "fancyplanters": ["*-north"] },
-  "shape": { "base": "fancyplanters:block/clay/planter2x1/empty" },
-  "blockmaterial": "Ceramic",
-  "replaceable": 900,
-  "resistance": 1.5,
-  "lightAbsorption": 1,
-  "textures": {
-    "ceramic": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": ["bricklayers:block/clay/burnt/overlay"] },
-    "sides": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": ["bricklayers:block/clay/burnt/overlay"] },
-    "soil": { "base": "game:block/clay/planter/soil" }
-  },
-  "sidesolid": { "all": false },
-  "sideopaque": { "all": false },
-  "emitsideao": { "all": false },
-  "collisionSelectionBox": {
-    "x1": 0.125,
-    "y1": 0,
-    "z1": 0.125,
-    "x2": 1,
-    "y2": 0.5625,
-    "z2": 0.875,
-    "rotateYByType": {
-      "*-east": 270,
-      "*-west": 90,
-      "*-south": 180
+    "entityClass": "PlantContainer",
+    "behaviors": [
+        {
+            "name": "FancyPlanters.BbName",
+            "properties": {
+                "main": "bricklayers:block-plantercolored-{state}-{color}",
+                "parts": [" (2x1)"]
+            }
+        },
+        { "name": "HorizontalOrientable" },
+        {
+            "name": "Multiblock",
+            "propertiesByType": {
+                "*-north": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 0, "y": 0, "z": 0 } },
+                "*-east": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 0 } },
+                "*-south": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 1, "y": 0, "z": 0 } },
+                "*-west": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 1 } }
+            }
+        }
+    ],
+    "attributes": {
+        "sitHeight": 0.75,
+        "beeFeedByType": { "*-empty": false, "*": true },
+        "butterflyFeedByType": { "*-empty": false, "*": true },
+        "plantContainerSize": "fplanter2x1",
+        "filledShape": { "base": "fancyplanters:block/clay/planter2x1/full" },
+        "fillHeight": 0.5
+    },
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "variantgroups": [
+        { "code": "state", "states": ["burnt"] },
+        {
+            "code": "color",
+            "states": ["black", "blurple", "brown", "darkgrey", "fire", "green", "malachite", "orange", "pink", "purple", "red", "light", "yellow", "lavender", "paleblue", "palegreen", "palered", "sunflower", "white"]
+        },
+        { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+    ],
+    "maxStackSize": 4,
+    "creativeinventory": { "general": ["*-north"], "decorative": ["*-north"], "fancyplanters": ["*-north"] },
+    "shape": { "base": "fancyplanters:block/clay/planter2x1/empty" },
+    "blockmaterial": "Ceramic",
+    "replaceable": 900,
+    "resistance": 1.5,
+    "lightAbsorption": 1,
+    "textures": {
+        "ceramic": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": ["bricklayers:block/clay/burnt/overlay"] },
+        "sides": { "base": "bricklayers:block/clay/burnt/{color}", "overlays": ["bricklayers:block/clay/burnt/overlay"] },
+        "soil": { "base": "game:block/clay/planter/soil" }
+    },
+    "sidesolid": { "all": false },
+    "sideopaque": { "all": false },
+    "emitsideao": { "all": false },
+    "collisionSelectionBox": {
+        "x1": 0.125,
+        "y1": 0,
+        "z1": 0.125,
+        "x2": 1,
+        "y2": 0.5625,
+        "z2": 0.875,
+        "rotateYByType": {
+            "*-east": 270,
+            "*-west": 90,
+            "*-south": 180
+        }
+    },
+    "guiTransform": {
+        "translation": { "x": -9, "y": 0, "z": 0 },
+        "scale": 0.89
+    },
+    "fpHandTransform": {
+        "rotation": { "x": 0, "y": 0, "z": 0 }
+    },
+    "tpHandTransform": {
+        "translation": { "x": -1.65, "y": -0.6, "z": -0.9 },
+        "rotation": { "x": -80, "y": 13, "z": -104 },
+        "scale": 0.5
     }
-  },
-  "guiTransform": {
-    "translation": { "x": -9, "y": 0, "z": 0 },
-    "scale": 0.89
-  },
-  "fpHandTransform": {
-    "rotation": { "x": 0, "y": 0, "z": 0 }
-  },
-  "tpHandTransform": {
-    "translation": { "x": -1.65, "y": -0.6, "z": -0.9 },
-    "rotation": { "x": -80, "y": 13, "z": -104 },
-    "scale": 0.5
-  }
 }
