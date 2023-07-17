@@ -1,12 +1,12 @@
 {
-  "type": "code",
-  "side":"universal",
-  "modid": "fancyplanters",
-  "name": "Fancy Planters",
-  "description": "- 2x1 planters\n- Plant dry grass, seeds, gears, crystals etc. into planters",
-  "authors": ["Craluminum2413"],
-  "version": "1.0.5",
-  "dependencies": {
-    "game": "1.16.0"
-  }
+    "type": "code",
+    "side": "universal",
+    "modid": "fancyplanters",
+    "name": "Fancy Planters",
+    "description": "- 2x1 planters\n- Plant dry grass, seeds, gears, crystals etc. into planters",
+    "authors": ["Craluminum2413"],
+    "version": "1.1.0",
+    "dependencies": {
+        "game": "1.18.0"
+    }
 }
