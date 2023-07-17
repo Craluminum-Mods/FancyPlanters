@@ -1,0 +1,68 @@
+[
+    {
+        "op": "add",
+        "path": "/attributesByType/*-rusty/plantContainable",
+        "value": {
+            "smallContainer": {
+                "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "block/metal/tarnished/rusty-iron" }
+                }
+            },
+            "largeContainer": {
+                "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "block/metal/tarnished/rusty-iron" }
+                }
+            },
+            "fplanter2x1Container": {
+                "randomRotate": false,
+                "shape": { "base": "fancyplanters:shapes/planted/planter2x1-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "block/metal/tarnished/rusty-iron" }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/gear.json",
+        "side": "server"
+    },
+    {
+        "op": "add",
+        "path": "/attributesByType/*-temporal/plantContainable",
+        "value": {
+            "smallContainer": {
+                "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "item/resource/temporalgear" }
+                }
+            },
+            "largeContainer": {
+                "shape": { "base": "fancyplanters:shapes/planted/planter-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "item/resource/temporalgear" }
+                }
+            },
+            "fplanter2x1Container": {
+                "randomRotate": false,
+                "shape": { "base": "fancyplanters:shapes/planted/planter2x1-gear_plant" },
+                "textures": {
+                    "gray": { "base": "block/wood/debarked/aged" },
+                    "white": { "base": "block/wood/debarked/aged" },
+                    "gear": { "base": "item/resource/temporalgear" }
+                }
+            }
+        },
+        "file": "game:itemtypes/resource/gear.json",
+        "side": "server"
+    }
+]

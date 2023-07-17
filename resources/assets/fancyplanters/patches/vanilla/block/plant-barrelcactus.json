@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/plantContainable/fplanter2x1Container",
+        "value": {
+            "randomRotate": false,
+            "shape": { "base": "fancyplanters/planted/barrelcactus/planter2x1/normal*" }
+        },
+        "file": "game:blocktypes/plant/barrelcactus.json",
+        "side": "server"
+    }
+]

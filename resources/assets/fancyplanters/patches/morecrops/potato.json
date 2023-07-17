@@ -6,7 +6,7 @@
       "plantContainable": {
         "fplanter2x1Container": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-potato-stage7" },
+          "shape": { "base": "fancyplanters/planted/crop/planter2x1-morecrops-potato-stage7" },
           "textures": {
             "e7": { "base": "potatoes:block/plant/crop/potato/e7" },
             "s7": { "base": "potatoes:block/plant/crop/potato/s7" },
@@ -14,7 +14,7 @@
           }
         },
         "largeContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-potato-stage7" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-potato-stage7" },
           "textures": {
             "e7": { "base": "potatoes:block/plant/crop/potato/e7" },
             "s7": { "base": "potatoes:block/plant/crop/potato/s7" },
@@ -22,7 +22,7 @@
           }
         },
         "smallContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/flowerpot-morecrops-potato-stage7" },
+          "shape": { "base": "fancyplanters/planted/crop/flowerpot-morecrops-potato-stage7" },
           "textures": {
             "e7": { "base": "potatoes:block/plant/crop/potato/e7" },
             "s7": { "base": "potatoes:block/plant/crop/potato/s7" },
@@ -31,14 +31,6 @@
         }
       }
     },
-    "file": "potatoes:itemtypes/resource/potatoseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }],
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
     "file": "potatoes:itemtypes/resource/potatoseeds.json",
     "dependsOn": [{ "modid": "potatoes" }],
     "side": "server"

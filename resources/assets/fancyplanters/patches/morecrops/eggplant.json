@@ -6,21 +6,21 @@
       "plantContainable": {
         "fplanter2x1Container": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-eggplant-stage6" },
+          "shape": { "base": "fancyplanters/planted/crop/planter2x1-morecrops-eggplant-stage6" },
           "textures": {
             "sproutsandstem": { "base": "potatoes:block/plant/crop/eggplant/sproutsandstem" },
             "eggplant": { "base": "potatoes:block/plant/crop/eggplant/eggplant" }
           }
         },
         "largeContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-eggplant-stage6" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-eggplant-stage6" },
           "textures": {
             "sproutsandstem": { "base": "potatoes:block/plant/crop/eggplant/sproutsandstem" },
             "eggplant": { "base": "potatoes:block/plant/crop/eggplant/eggplant" }
           }
         },
         "smallContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-eggplant-stage6" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-eggplant-stage6" },
           "textures": {
             "sproutsandstem": { "base": "potatoes:block/plant/crop/eggplant/sproutsandstem" },
             "eggplant": { "base": "potatoes:block/plant/crop/eggplant/eggplant" }
@@ -28,14 +28,6 @@
         }
       }
     },
-    "file": "potatoes:itemtypes/resource/eggplantseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }],
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
     "file": "potatoes:itemtypes/resource/eggplantseeds.json",
     "dependsOn": [{ "modid": "potatoes" }],
     "side": "server"

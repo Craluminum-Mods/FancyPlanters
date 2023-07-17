@@ -6,7 +6,7 @@
       "plantContainable": {
         "fplanter2x1Container": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-beet-stage5" },
+          "shape": { "base": "fancyplanters/planted/crop/planter2x1-morecrops-beet-stage5" },
           "textures": {
             "s5": { "base": "potatoes:block/plant/crop/beet/s5" },
             "bulb": { "base": "potatoes:block/plant/crop/beet/bulb" },
@@ -14,7 +14,7 @@
           }
         },
         "largeContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-beet-stage5" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-beet-stage5" },
           "textures": {
             "s5": { "base": "potatoes:block/plant/crop/beet/s5" },
             "bulb": { "base": "potatoes:block/plant/crop/beet/bulb" },
@@ -22,7 +22,7 @@
           }
         },
         "smallContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/flowerpot-morecrops-beet-stage5" },
+          "shape": { "base": "fancyplanters/planted/crop/flowerpot-morecrops-beet-stage5" },
           "textures": {
             "s5": { "base": "potatoes:block/plant/crop/beet/s5" },
             "bulb": { "base": "potatoes:block/plant/crop/beet/bulb" },
@@ -31,14 +31,6 @@
         }
       }
     },
-    "file": "potatoes:itemtypes/resource/beetseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }],
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
     "file": "potatoes:itemtypes/resource/beetseeds.json",
     "dependsOn": [{ "modid": "potatoes" }],
     "side": "server"

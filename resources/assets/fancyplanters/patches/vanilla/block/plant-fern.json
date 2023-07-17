@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/plantContainable/fplanter2x1Container",
+        "value": {
+            "randomRotate": false,
+            "shape": { "base": "fancyplanters/planted/fern/planter2x1/{type}-var*" }
+        },
+        "file": "game:blocktypes/plant/fern.json",
+        "side": "server"
+    }
+]

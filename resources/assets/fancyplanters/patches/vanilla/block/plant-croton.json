@@ -1,0 +1,12 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/plantContainable/fplanter2x1Container",
+        "value": {
+            "randomRotate": false,
+            "shape": { "base": "fancyplanters:shapes/planted/croton/planter2x1/{size}/{color}" }
+        },
+        "file": "game:blocktypes/plant/croton.json",
+        "side": "server"
+    }
+]

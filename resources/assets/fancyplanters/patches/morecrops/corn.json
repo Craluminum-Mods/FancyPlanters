@@ -6,7 +6,7 @@
       "plantContainable": {
         "fplanter2x1Container": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-corn-stage9" },
+          "shape": { "base": "fancyplanters/planted/crop/planter2x1-morecrops-corn-stage9" },
           "textures": {
             "normal7-12": { "base": "potatoes:block/plant/crop/corn/normal7-12" },
             "normal1-6": { "base": "potatoes:block/plant/crop/corn/normal1-6" },
@@ -15,7 +15,7 @@
         },
         "largeContainer": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-corn-stage9" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-corn-stage9" },
           "textures": {
             "normal7-12": { "base": "potatoes:block/plant/crop/corn/normal7-12" },
             "normal1-6": { "base": "potatoes:block/plant/crop/corn/normal1-6" },
@@ -23,7 +23,7 @@
           }
         },
         "smallContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/flowerpot-morecrops-corn-stage9" },
+          "shape": { "base": "fancyplanters/planted/crop/flowerpot-morecrops-corn-stage9" },
           "textures": {
             "normal7-12": { "base": "potatoes:block/plant/crop/corn/normal7-12" },
             "normal1-6": { "base": "potatoes:block/plant/crop/corn/normal1-6" },
@@ -32,14 +32,6 @@
         }
       }
     },
-    "file": "potatoes:itemtypes/resource/cornseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }],
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
     "file": "potatoes:itemtypes/resource/cornseeds.json",
     "dependsOn": [{ "modid": "potatoes" }],
     "side": "server"

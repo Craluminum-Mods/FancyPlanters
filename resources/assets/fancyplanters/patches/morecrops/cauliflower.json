@@ -6,21 +6,21 @@
       "plantContainable": {
         "fplanter2x1Container": {
           "randomRotate": false,
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter2x1-morecrops-cauliflower-stage12" },
+          "shape": { "base": "fancyplanters/planted/crop/planter2x1-morecrops-cauliflower-stage12" },
           "textures": {
             "bottom12": { "base": "potatoes:block/plant/crop/cauliflower/bottom12" },
             "top": { "base": "potatoes:block/plant/crop/cauliflower/top" }
           }
         },
         "largeContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/planter-morecrops-cauliflower-stage12" },
+          "shape": { "base": "fancyplanters/planted/crop/planter-morecrops-cauliflower-stage12" },
           "textures": {
             "bottom12": { "base": "potatoes:block/plant/crop/cauliflower/bottom12" },
             "top": { "base": "potatoes:block/plant/crop/cauliflower/top" }
           }
         },
         "smallContainer": {
-          "shape": { "base": "fancyplanters:shapes/planted/crop/flowerpot-morecrops-cauliflower-stage12" },
+          "shape": { "base": "fancyplanters/planted/crop/flowerpot-morecrops-cauliflower-stage12" },
           "textures": {
             "bottom12": { "base": "potatoes:block/plant/crop/cauliflower/bottom12" },
             "top": { "base": "potatoes:block/plant/crop/cauliflower/top" }
@@ -28,14 +28,6 @@
         }
       }
     },
-    "file": "potatoes:itemtypes/resource/cauliflowerseeds.json",
-    "dependsOn": [{ "modid": "potatoes" }],
-    "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
     "file": "potatoes:itemtypes/resource/cauliflowerseeds.json",
     "dependsOn": [{ "modid": "potatoes" }],
     "side": "server"

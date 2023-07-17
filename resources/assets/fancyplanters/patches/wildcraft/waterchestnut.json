@@ -24,13 +24,5 @@
     "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
     "dependsOn": [{ "modid": "wildcraft" }],
     "side": "server"
-  },
-  {
-    "op": "add",
-    "path": "/creativeinventory/fpallowed",
-    "value": ["*"],
-    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
-    "dependsOn": [{ "modid": "wildcraft" }],
-    "side": "server"
   }
 ]
