@@ -4,24 +4,24 @@ using Vintagestory.GameContent;
 
 namespace FancyPlanters
 {
-  public class BlockPlantContainer2x1 : BlockPlantContainer, IMultiBlockMonolithicSmall
-  {
-    Cuboidf[] mirroredColBox;
-    public override void OnLoaded(ICoreAPI api)
+    public class BlockPlantContainer2x1 : BlockPlantContainer, IMultiBlockColSelBoxes
     {
-      base.OnLoaded(api);
+        Cuboidf[] mirroredColBox;
+        public override void OnLoaded(ICoreAPI api)
+        {
+            base.OnLoaded(api);
 
-      mirroredColBox = new Cuboidf[] { CollisionBoxes[0].RotatedCopy(0, 180, 0, new Vec3d(0.5, 0.5, 0.5)) };
-    }
+            mirroredColBox = new Cuboidf[] { CollisionBoxes[0].RotatedCopy(0, 180, 0, new Vec3d(0.5, 0.5, 0.5)) };
+        }
 
-    public Cuboidf[] MBGetCollisionBoxes(IBlockAccessor blockAccessor, BlockPos pos, Vec3i offset)
-    {
-      return mirroredColBox;
-    }
+        public Cuboidf[] MBGetCollisionBoxes(IBlockAccessor blockAccessor, BlockPos pos, Vec3i offset)
+        {
+            return mirroredColBox;
+        }
 
-    public Cuboidf[] MBGetSelectionBoxes(IBlockAccessor blockAccessor, BlockPos pos, Vec3i offset)
-    {
-      return mirroredColBox;
+        public Cuboidf[] MBGetSelectionBoxes(IBlockAccessor blockAccessor, BlockPos pos, Vec3i offset)
+        {
+            return mirroredColBox;
+        }
     }
-  }
 }
