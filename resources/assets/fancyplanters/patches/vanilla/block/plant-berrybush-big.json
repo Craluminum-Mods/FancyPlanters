@@ -1,0 +1,28 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/plantContainable",
+        "value": {
+            "largeContainer": {
+                "randomRotate": false,
+                "shape": { "base": "fancyplanters/planted/berrybush/planter-large" },
+                "textures": {
+                    "flowerberrysmalltop": { "base": "block/plant/berrybush/small/fruit/{type}top1" },
+                    "flowerberrysmall": { "base": "block/plant/berrybush/small/fruit/{type}1" },
+                    "flowerberrylarge": { "base": "block/plant/berrybush/large/fruit/{type}" }
+                }
+            },
+            "fplanter2x1Container": {
+                "randomRotate": false,
+                "shape": { "base": "fancyplanters/planted/berrybush/planter2x1-large" },
+                "textures": {
+                    "flowerberrysmalltop": { "base": "block/plant/berrybush/small/fruit/{type}top1" },
+                    "flowerberrysmall": { "base": "block/plant/berrybush/small/fruit/{type}1" },
+                    "flowerberrylarge": { "base": "block/plant/berrybush/large/fruit/{type}" }
+                }
+            }
+        },
+        "file": "game:blocktypes/plant/bigberrybush.json",
+        "side": "server"
+    }
+]
