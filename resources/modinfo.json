@@ -3,7 +3,7 @@
     "side": "universal",
     "modid": "fancyplanters",
     "name": "Fancy Planters",
-    "description": "- 2x1 planters\n- Plant dry grass, seeds, gears, crystals etc. into planters",
+    "description": "Brings 2x1 planters and ability to plant more various items in planters and flowerpots.",
     "authors": ["Craluminum2413"],
     "version": "1.1.0",
     "dependencies": {
